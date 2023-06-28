@@ -1,0 +1,21 @@
+{
+  "type": "module",
+  "name": "cypress-framework",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "cy:dev": "npx cypress open --env fileConfig=dev",
+    "cy:qa": "npx cypress open --env fileConfig=qa"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chai-sorted": "^0.2.0",
+    "cypress": "^12.15.0",
+    "fs-extra": "^11.1.1"
+  },
+  "devDependencies": {
+    "@cypress/xpath": "^2.0.3"
+  }
+}
