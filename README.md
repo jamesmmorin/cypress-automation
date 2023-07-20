@@ -33,5 +33,11 @@ Etc. This gives the tester a lot of control over specific environment variables,
 
 7.) As this is a mock test framework, these tests have all been executed in the development environment by running the command
     npm run cy:dev
-The author suggests you do the same:)
+The author suggests you do the same
+
+If, however, you want to run them headless locally, you can do so by running the following command
+    cy:local-dev
+    this will run the tests locally, headless, in the dev environment. Please see the package.json file for additional scripts
+
+8.) The api tests test this web page https://www.automationexercise.com/api_list and are just a couple of quick api verifications
 

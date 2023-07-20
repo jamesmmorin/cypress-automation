@@ -5,7 +5,7 @@ import fs from 'fs-extra';
 
 
 function getConfigurationByFile(file){
-  const pathToConfigFile = path.resolve('..', 'cypress-framework/cypress/config', `${file}.json`);
+  const pathToConfigFile = path.resolve('..', 'cypress-automation/cypress/config', `${file}.json`);
 
   return fs.readJson(pathToConfigFile);
 }
