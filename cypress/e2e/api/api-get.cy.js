@@ -20,8 +20,6 @@ it('cy.request() part 2', () => {
 
     cy.get('@productList').should((response) => {
       expect(response.status).to.eq(200)
-    //   expect(response.body).to.have.property('products')
-    //   expect(response).to.have.property('duration')
 });
 
 });
