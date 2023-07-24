@@ -16,6 +16,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@cypress/grep": "^3.1.5",
     "chai-sorted": "^0.2.0",
     "cypress": "^12.15.0",
     "fs-extra": "^11.1.1"
