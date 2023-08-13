@@ -19,7 +19,7 @@ describe('this test logs in and verifies content on the home page', () => {
 
     // a cy.get actually performs an assertion, so if you are just looking for an item on a page, a cy.get will certify that it's there
     // if your developers are writing the app in REACT, class names and IDs are often dynamically generated, so getting a more reliable 
-    // selector. like a data-cy, or a data-id of some kind is often a good decision
+    // selector, like a data-cy, or a data-id of some kind is often a good decision
     cy.get('#item_4_title_link');
 
     // if you are having trouble finding a selector with CSS, you can use xpath if you install the cypress-xpath libray

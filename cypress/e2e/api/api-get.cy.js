@@ -11,7 +11,7 @@ it('cy.request()', () => {
     }).then((response) => {
         expect(response.status).to.eq(200);
         expect(response.body).to.have.property('products');
-        cy.log(response.body);
+        cy.log(response.body.products);
     });
 });
 
